@@ -6,7 +6,7 @@ Literature Review of Computational Models of transitive inference: implementatio
 |---|---|---|
 | Bradley-Terry | Value | Latent scalar, batch MLE |
 | ELO | Value | Latent scalar, online SGD |
-| Betasort | Value (hybrid) | Beta distributions + implicit inference |
+| Betasort | Value (w/ Uncertainty) | Beta distributions + implicit inference |
 | REMERGE | Relational | Recurrent similarity over conjunctive memory |
 
 ## Bradley Terry

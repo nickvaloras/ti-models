@@ -16,7 +16,9 @@ The purpose of this literature review is to understand the fundamental theoretic
 
 ### Neurobiological Background
 Four regions recur across the TI literature, each doing distinct work.
-Hippocampus. Necessary for premise acquisition in rodent lesion studies. In humans, pattern similarity scales with symbolic distance — further-apart items (A vs. E) separate more than adjacent ones (A vs. B). Reads as structure encoded during learning, not integration at judgment time; several studies find no extra hippocampal signal on inference trials specifically.
+Hippocampus. Necessary for premise acquisition in rodent lesion studies. 
+
+Symbolic distance: further-apart items (A vs. E) separate more than adjacent ones (A vs. B). Reads as structure encoded during learning, not integration at judgment time; several studies find no extra hippocampal signal on inference trials specifically.
 
 Prefrontal cortex:
 

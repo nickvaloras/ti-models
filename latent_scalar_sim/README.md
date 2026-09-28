@@ -296,7 +296,7 @@ The ring is where the storage question starts to bite. On cyclic data no assignm
 - **Unbalanced schedules** (small τ, clustered). This is where the record and BT should diverge, and where BT's global revision (4b) should show up.
 
 **Stepping out of the correctly specified world (what is stored):**
-- **Strength change mid-season.** An online learner should track a change, while a batch refit over the whole history averages across it.
+- **Strength change mid-season.** An online learner should track a change, while a batch refit over the whole history averages across it. Say a quarterback gets injured week 7. For the remaining 3 games, the team struggles. ELO would capture this change for a Week 11 prediction much more accurately than Bradley-Terry would.
 - **Non-additive world.** Generate outcomes that no scalar can fit, such as intransitive triads, and look at how each model fails. This is the bridge to the ring.
 - **Terminal-item analysis.** Check whether the scalar models show the end-item advantage purely from having fewer opponents above or below. This connects to the α estimate from Lippl et al. (2024).
 

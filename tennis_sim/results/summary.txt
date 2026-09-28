@@ -1,0 +1,12 @@
+seed 11, gap 1.1 logits, 6 tournaments, 90 matches, 9 upsets
+
+player        true      BT  Elo K=20  Elo K=60   (Elo scale)
+Sinner        1978    1950      1656      1780   record 27-3
+Alcaraz       1787    1800      1597      1651   record 23-7
+Zverev        1596    1698      1574      1658   record 20-10
+Djokovic      1404    1415      1464      1452   record 12-18
+Shelton       1213    1217      1395      1310   record 7-23
+de Minaur     1022     920      1314      1149   record 1-29
+
+mean |P - P_true| over the 15 pairs: BT 0.038, Elo K=20 0.176, Elo K=60 0.079
+mean final-rating range across shuffled orders (Elo pts): K=20 35, K=60 151, BT 0

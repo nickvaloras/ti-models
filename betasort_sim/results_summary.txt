@@ -1,0 +1,32 @@
+
+Betasort, τ=0.05, ξ=0.95, 200 sessions
+Accuracy at transfer (exact probe, mean over sessions):
+  AB  d=1  0.787
+  AC  d=2  0.920
+  AD  d=3  0.959
+  AE  d=4  0.971
+  AF  d=5  0.974
+  AG  d=6  0.975
+  BC  d=1  0.769
+  BD  d=2  0.894  critical
+  BE  d=3  0.946  critical
+  BF  d=4  0.966  critical
+  BG  d=5  0.973
+  CD  d=1  0.734
+  CE  d=2  0.880  critical
+  CF  d=3  0.947  critical
+  CG  d=4  0.969
+  DE  d=1  0.737
+  DF  d=2  0.893  critical
+  DG  d=3  0.957
+  EF  d=1  0.763
+  EG  d=2  0.920
+  FG  d=1  0.792
+Critical-pair mean at transfer: 0.921
+Observed accuracy, phase 1 (adjacent): 0.680
+Observed accuracy, phase 2 (all pairs): 0.922
+Observed accuracy, phase 3 (massed FG): 0.960
+Mean V at end of massed FG: A=1.00 B=0.93 C=0.83 D=0.71 E=0.59 F=0.47 G=0.00
+Sessions with full A>…>G order intact after massed FG: 91.50%
+
+Figures written to /home/claude/betasort_sim/figures

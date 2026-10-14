@@ -47,8 +47,6 @@ Bradley-Terry, ELO, and Betasort sit in one corner (encoding, scalar). REMERGE s
 
 The two families also connect: for a chain, the first non-trivial eigenvector of the SR is approximately the scalar (ELO-like) value code.
 
-**Why a ring?** The scalar models all assume a total order, and a ring has none. That makes ring structure a test that separates map-based accounts from value/scalar-ranking accounts.
-
 ## Bradley-Terry & ELO
 The Bradley-Terry model was formally introduced in 1952 by the statisticians Ralph A. Bradley and Milton E. Terry [1]. The same model had been studied earlier by Zermelo (1929) for ranking chess players [2]. Bradley-Terry provides a statistical framework for paired (head-to-head) comparison data, turning wins and losses into rankings. Each item *i* has a latent strength *s<sub>i</sub>*, and
 
@@ -77,8 +75,7 @@ Findings (300 replicated seasons):
   - ELO is strongly underconfident, because K = 20 is too small for 10 games.
 
 ### Example: `tennis_sim/` (ATP players)
-Six ATP players serve as a hidden skill ladder. This example introduces Bradley-Terry and ELO fundamentals at a scale small enough to follow by hand, then bridges to the ring experiment.
-
+Six ATP players serve as a hidden skill ladder. This example introduces Bradley-Terry and ELO fundamentals at a scale small enough to follow by hand.
 ## Betasort
 Betasort [5] is a scalar account like BT and ELO, but it was developed independently in the animal serial-learning tradition rather than as an extension of them. It differs in three ways:
 
